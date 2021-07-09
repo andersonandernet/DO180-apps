@@ -1,0 +1,43 @@
+---
+manifest version: 1
+curriculum:
+ name: DO180
+ release: 1.r2021060712
+ description: Introduction to Containers, Kubernetes, and Red Hat OpenShift
+ technology: OCP4.6
+ modality: [ ILT, RAV ]
+ generation: 7
+ locale: [ en_US ]
+ publish date: 2021-06-07 12:20:28+00:00
+ publisher: jrigsbee
+ artifacts:
+ - filename: foundation0-do180-4.6-1.r2021060421git30403cd5.noarch.rpm
+   type: content
+   content type: rpm
+   target directory: ucf/Packages
+   usage: [ classroom ]
+   checksum: 98b7c823881ea58d74f22efb2be5ca95
+ - filename: rhel-classroom-vda-50G-8.2-placeholder.qcow2
+   type: content
+   content type: file
+   target directory: ocp4.6/x86_64/vms
+   final name: /var/lib/libvirt/images/do180-classroom-vda.qcow2
+   usage: [ foundation ]
+   checksum: 178164f81917b8e87073295a635588de
+ - filename: redhat-training-slides-DO180-OCP4.6-en-1-20210607.noarch.rpm
+   type: content
+   content type: rpm
+   target directory: ucf/Packages
+   usage: [ classroom ]
+   checksum: 659f27cab9c79a4ce334067a7cb7bb2c
+ - filename: ClassroomSetup-DO180-4.6-1.r2021060421git30403cd5.txt
+   type: content
+   content type: file
+   target directory: docs
+   final name: /root/ClassroomSetup-DO180-4.6-1.r2021060421git30403cd5.txt
+   usage: [ classroom ]
+   checksum: 6d48782836c67c8ed3d1658d13c12c05
+ - filename: DO180-OCP4.6-en-1-20210607-IG.pdf
+   type: source
+   usage: [ classroom ]
+   checksum: 9478f6c985e4d7bf7e7896f2946aadb5

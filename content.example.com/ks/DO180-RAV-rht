@@ -1,0 +1,4 @@
+RHT_VENUE=rav
+RHT_COURSE=do180
+RHT_TITLE="Introduction to Containers, Kubernetes, and Red Hat OpenShift"
+RHT_VMTREE=ocp4.6/x86_64
